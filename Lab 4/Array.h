@@ -17,5 +17,16 @@ public:
 
 	// Destructor
 	~Array();
+
+	int getSize() const;
+
+	// Copy assignment operator
+	Array& operator=(const Array& source);
+
+	// Subscript operator overload
+	int& operator[](int size);
+
+	// Dereference operator overload
+	int& operator*();
 };
 

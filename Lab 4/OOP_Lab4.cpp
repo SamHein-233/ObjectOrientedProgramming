@@ -10,8 +10,27 @@ using namespace std;
 
 int main()
 {
-    Array array1{ 10 };
-    ArrayNew array2{ 10 };
+    Array arr{ 5 };
+    for (int i = 0; i < arr.getSize(); ++i) {
+        arr[i] = i * 2;
+    }
+
+    cout << "Array values: ";
+    for (int i = 0; i < arr.getSize(); ++i) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    //ArrayNew newArr{ 10 };
+    //for (int i = 0; i < newArr.getSize(); ++i) {
+        //newArr[i] = i * 3;
+    //}
+
+    //cout << "ArrayNew values: ";
+    //for (int i = 0; i < newArr.getSize(); ++i) {
+        //cout << newArr[i] << " ";
+    //}
+    //cout << endl;
 
 
     // smart pointers

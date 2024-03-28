@@ -1,4 +1,6 @@
 #include "Array.h"
+#include <iostream>
+using namespace std;
 
 Array::Array(int size) : size{ size } {
 	data = new int[size];
@@ -12,6 +14,22 @@ Array::Array(const Array& source) {
 	}
 }
 
+int Array::getSize() const {
+	return size;
+}
+
 Array::~Array() {
 	delete[] data;
+}
+
+Array& Array::operator=(const Array& source) {
+	return *this;
+}
+
+int& Array::operator[](int size) {
+	return data[size];
+}
+
+int& Array::operator*() {
+	return *data;
 }
