@@ -1,5 +1,5 @@
 # ObjectOrientedProgramming
-This repo is a collection of labs I have done so far in my Object-Oriented Programming class Spring 2024.
+A collection of scripts I have done so far in my Object-Oriented Programming research.
 
 In lab 1 I built a program that takes in a positive integer as input, and outputs a string of 1's and 0's representing the integer in reverse binary. A program that takes numbers as an input and outputs the maximum and minimum. A program that takes the users input of a year and outputs whether that year was a leap year or not.
 
