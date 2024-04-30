@@ -17,3 +17,7 @@ In lab 6 I created a new class: Shape and let two classes: Rectangle and Circle 
 -	Back to main file, I created a function: showShape(), to pass a Shape object as the argument, draw shape for implementation.
 -	Used Polymorphic Collection: to create a vector of Shape, put a rectangle and a circle to it, loop over the vector draw a rectangle and a circle on the console. (use late or dynamic binding)
 -	And then rewrote this code using unique pointer instead.
+
+In lab 7 I created a class: AccountLocked. Inside this class, override the what( ) function and return the message: "Your account is locked! Contact the admin." Created a function: login( ), to throw the exception: AccountLocked. Built two function for reversing a string (loop): takes a constant reference to a string. One used recursion and the other didn't. Then created another function that defined a recursive function.
+
+In lab 8 I took the array class created in lab 4 and turned it into a Template.
