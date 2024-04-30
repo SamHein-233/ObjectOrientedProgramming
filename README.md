@@ -10,3 +10,10 @@ In lab 3 I created a TextBox class with a UML provided in a seperate document. T
  In Lab 4 I created a class called Array with a UML provided in a seperate document. The UML had the same implementations as the lab above, but this one added a deconstructor, copy constructor, overload subscript operator, overload dereference(indirection) operator, and copy assignment operator. Then I created a new class called ArrayNew that used unique pointer to replay the raw pointer used in the Array class.
 
  In lab 5 I created a class called Point using a UML provided in a seperate document. The UML had a constructor, equality operator, inequality operator, comparison operator(four), insertion operator(friend), arithmetic operators, and compound assignment operator.
+
+In lab 6 I created a new class: Shape and let two classes: Rectangle and Circle derive from the Shape. 
+-	For each class I implemented the member functions in the implementation file.
+-	Added a function to base class: draw(), and let two derived classes override this function.
+-	Back to main file, I created a function: showShape(), to pass a Shape object as the argument, draw shape for implementation.
+-	Used Polymorphic Collection: to create a vector of Shape, put a rectangle and a circle to it, loop over the vector draw a rectangle and a circle on the console. (use late or dynamic binding)
+-	And then rewrote this code using unique pointer instead.
